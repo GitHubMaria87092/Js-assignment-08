@@ -75,3 +75,88 @@
 // let endnum = parseFloat(prompt("Enter end Number for Counting"));
 
 // displayCounting(startnum, endnum);
+
+// question 08
+
+// function calculateHypotenus(base, perpendicular) {
+//     function calSquare(num) {
+//         return num*num;
+//     }
+
+//     let baseSquare = calSquare(base);
+//     let hypotenusSquare = calSquare(perpendicular);
+
+//     let hypotenus = Math.sqrt(baseSquare + hypotenusSquare);
+
+//     return hypotenus;
+// }
+
+// let base = parseFloat(prompt("Enter Base Value"));
+// let perpendicular = parseFloat(prompt("Enter perpendicular Value"));
+
+// let hypotenus = calculateHypotenus(base, perpendicular);
+// console.log("The hypotenuse is: " + hypotenus);
+
+// question 09
+
+// function areaOfSquare(width, height) {
+//     return width * height;
+// }
+
+// let area = areaOfSquare(5, 10);
+// console.log("Area Of Circle is.." + " " + area);
+
+// question 11
+
+// function capitilizeWords(str) {
+//     let words = str.split(' ');
+
+//     let capitilizedWords = words.map(function(word) {
+//         return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+//     });
+
+//     return capitilizedWords.join(' ');
+// }
+
+// let userInputStr = prompt("Enter Any String");
+// let result = capitilizeWords(userInputStr);
+// console.log(result);
+
+// question 12
+
+// function findLongestWord(str) {
+//     let words = str.split(' ');
+
+//     let longestWord = '';
+
+//     for(let i = 0; i < words.length; i++) {
+//         if(words[i].length > longestWord.length) {
+//             longestWord = words[i]
+//         }
+//     }
+
+//     return longestWord;
+// }
+
+// let userInput = prompt("Enter Any Thing");
+// let result = findLongestWord(userInput);
+// console.log(result);
+
+// question 13
+
+// function findOccurence(str, letter) {
+//     let count = 0;
+
+//     for(let i = 0; i < str.length; i++){
+//         if(str[i] === letter){
+//             count++
+//         }
+//     }
+
+//     return count;
+// };
+
+// console.log(findOccurence("hello world", "l"));
+
+// question 14
+
